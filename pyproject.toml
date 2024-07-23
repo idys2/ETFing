@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "etfdb"
+version = "0.1.0"
+description = ""
+authors = ["Jason Soo <irdnoun@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+psycopg2-binary = "^2.9.9"
+asyncpg = "^0.29.0"
+alpaca-trade-api = "^3.2.0"
+aiohttp = "^3.9.5"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
