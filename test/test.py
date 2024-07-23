@@ -2,7 +2,7 @@ import pytest
 import requests
 import json
 
-import config
+from src import config
 
 # test database connection
 def test_db_conn():
